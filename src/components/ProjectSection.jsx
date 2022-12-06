@@ -32,7 +32,7 @@ function ProjectSection() {
       className="max-w-7xl mx-auto flex-col sm:max-h-screen min-h-screen flex py-20 px-10 2xl:px-0 bg-my-white snap-center"
     >
       <h1 className="mb-10 text-4xl underline font-extrabold">
-        Library of My Works
+        Library of My Personal Works
       </h1>
 
       <div className="bg-slate-100 sm:p-10 shadow-xl shadow-blue-300/40 sm:overflow-y-scroll sm:scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-orange-300">

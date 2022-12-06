@@ -13,7 +13,7 @@ function Navigation() {
   return (
     <header id="header">
       <nav
-        className={`px-5 flex fixed top-0 left-0 justify-evenly w-full bg-my-lightblue border-b-2 border-my-yellow md:justify-end z-20 }`}
+        className={`px-5 flex fixed top-0 left-0 justify-evenly w-full md:justify-end z-20 }`}
       >
         <motion.div
           initial={{
