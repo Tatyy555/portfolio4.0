@@ -27,7 +27,7 @@ function Hero() {
           <span className="mr-3 overflow-hidden text-ellipsis">{text}</span>
           <Cursor cursorColor="#FFFFFF" />
         </h1>
-        <p className="text-slate-400 absolute text-3xl lg:text-5xl font-bold font-Arial bottom-[10rem] sm:bottom-[16rem]  z-10">
+        <p className="text-slate-400 absolute text-3xl lg:text-5xl font-bold font-Arial bottom-[10rem] sm:bottom-[14rem]  z-10">
           a web developer
         </p>
       </div>
