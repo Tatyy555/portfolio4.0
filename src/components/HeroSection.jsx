@@ -23,7 +23,7 @@ function Hero() {
     <div className="flex flex-col w-screen h-[80%] text-center snap-center relative">
       <canvas className=" w-screen  h-full absolute fluid-image" />
       <div className=" flex flex-col w-screen items-center">
-        <h1 className="font-Pacifico  mt-40 md:mt-48 text-6xl sm:text-6xl md:text-7xl xl:text-8xl 2xl:text-9xl text-slate-100 leading-relaxed lg:pb-8 lg:leading-loose z-10">
+        <h1 className="font-Pacifico  mt-40 md:mt-48 text-[3.4rem] sm:text-6xl md:text-7xl xl:text-8xl 2xl:text-9xl text-slate-100 leading-relaxed lg:pb-8 lg:leading-loose z-10">
           <span className="mr-3 overflow-hidden text-ellipsis">{text}</span>
           <Cursor cursorColor="#FFFFFF" />
         </h1>
