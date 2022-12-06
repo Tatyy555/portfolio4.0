@@ -1,13 +1,14 @@
-import "./App.css";
-import { useTypewriter, Cursor } from "react-simple-typewriter";
-import WebGLFluid from "webgl-fluid";
-import { useEffect } from "react";
-import Hero from "./components/Hero"
+import HeroSection from "./components/HeroSection"
+import Navigation from "./components/Navigation";
+import ProjectSection from "./components/ProjectSection";
 
 function App() {
   return (
-    <div>
-      <Hero />
+    <div className="sm:snap-mandatory bg-gray-900 sm:snap-y text-white overflow-scroll h-screen">
+
+      <Navigation />
+      <HeroSection />
+      <ProjectSection />
     </div>
   );
 }
