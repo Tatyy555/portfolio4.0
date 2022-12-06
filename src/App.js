@@ -1,12 +1,11 @@
 import HeroSection from "./components/HeroSection"
-import Navigation from "./components/Navigation";
 import ProjectSection from "./components/ProjectSection";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div className="sm:snap-mandatory bg-gray-900 sm:snap-y text-white overflow-scroll h-screen">
-
-      <Navigation />
+      <Header />
       <HeroSection />
       <ProjectSection />
     </div>

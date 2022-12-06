@@ -6,10 +6,8 @@ import {
   BuildingLibraryIcon,
   ChatBubbleLeftRightIcon,
 } from "@heroicons/react/24/outline";
-import { useState } from "react";
-import { useEffect } from "react";
 
-function Navigation() {
+function Header() {
   return (
     <header id="header">
       <nav
@@ -63,4 +61,4 @@ function Navigation() {
   );
 }
 
-export default Navigation;
+export default Header;
