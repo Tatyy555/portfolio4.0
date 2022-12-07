@@ -54,7 +54,7 @@ function ProjectSection() {
         once: true,
       }}
       id="project-section"
-      className="font-Montserrat max-w-7xl mx-auto flex-col min-h-[92vh] flex py-20 px-10 2xl:px-0 snap-center"
+      className="font-Montserrat max-w-7xl mx-auto flex-col min-h-[94vh] flex py-20 px-10 2xl:px-0 snap-center"
     >
       <h1 className="text-center mb-10 text-4xl underline font-extrabold">
         About Myself
