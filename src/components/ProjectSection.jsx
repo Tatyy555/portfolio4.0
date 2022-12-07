@@ -59,8 +59,8 @@ function ProjectSection() {
       <h1 className="text-center mb-10 text-4xl underline font-extrabold">
         About Myself
       </h1>
-      <div className="bg-gray-800 sm:p-10  sm:overflow-y-scroll sm:scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-orange-300">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4">
+      <div className="bg-gray-800 sm:p-10 ">
+        <div className="grid grid-cols-2 lg:grid-cols-4">
           {projects.map((project, i) => (
             <a
               key={project?._id}
