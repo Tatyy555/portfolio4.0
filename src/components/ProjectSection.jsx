@@ -60,7 +60,7 @@ function ProjectSection() {
         About Myself
       </h1>
       <div className="bg-gray-800 sm:p-10 ">
-        <div className="grid grid-cols-2 lg:grid-cols-4">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4">
           {projects.map((project, i) => (
             <a
               key={project?._id}
