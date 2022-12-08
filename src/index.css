@@ -11,6 +11,6 @@
     border-bottom-right-radius: 50% 20%;
   }
   .contactInput {
-    @apply outline-none bg-slate-400/10 rounded-sm border-b-2 px-6 py-4 border-black text-gray-500 placeholder-gray-500 transition-all focus:border-[#F7AB0A]/80 focus:text-black hover:border-yellow-400/80;
+    @apply outline-none bg-slate-400/10 rounded-sm border-b-2 px-6 py-4 border-black text-gray-500 placeholder-gray-500  focus:border-[#F7AB0A]/80 focus:text-black focus:bg-white active:bg-white hover:border-yellow-400/80;
   }
 }
