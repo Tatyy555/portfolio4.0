@@ -1,11 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import {
-  HomeIcon,
-  ClockIcon,
-  BuildingLibraryIcon,
-  ChatBubbleLeftRightIcon,
-} from "@heroicons/react/24/outline";
+import { HomeIcon, ChatBubbleLeftRightIcon } from "@heroicons/react/24/outline";
+import { BsPersonFill } from "react-icons/bs";
 
 function Header() {
   return (
@@ -29,25 +25,18 @@ function Header() {
           }}
         >
           <ul className="flex text-2xl">
-            <a href="#welcome-section">
+            <a href="#hero-section">
               <li className="hover:duration-200 p-4 hover:bg-my-skyblue rounded-3xl flex items-center space-x-2">
                 <HomeIcon className="h-7 w-7" />
                 <p className="hidden md:inline-flex">Welcome</p>
               </li>
             </a>
-            <a href="#project-section">
+            <a href="#about-section">
               <li className="hover:duration-200 p-4 hover:bg-my-skyblue rounded-3xl flex items-center space-x-2">
-                <BuildingLibraryIcon className="h-7 w-7" />
-                <p className="hidden md:inline-flex">Libraries</p>
+                <BsPersonFill className="h-7 w-7" />
+                <p className="hidden md:inline-flex">About</p>
               </li>
             </a>
-            <a href="#timeline-section">
-              <li className="hover:duration-200 p-4 hover:bg-my-skyblue rounded-3xl flex items-center space-x-2">
-                <ClockIcon className="h-7 w-7" />
-                <p className="hidden md:inline-flex">Timeline</p>
-              </li>
-            </a>
-
             <a href="#contact-section">
               <li className="hover:duration-200 p-4 hover:bg-my-skyblue rounded-3xl flex items-center space-x-2">
                 <ChatBubbleLeftRightIcon className="h-7 w-7" />

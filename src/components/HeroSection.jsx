@@ -20,7 +20,10 @@ function Hero() {
     delaySpeed: 2000,
   });
   return (
-    <div className="flex flex-col w-screen h-[80vh] text-center snap-center relative">
+    <div
+      id="hero-section"
+      className="flex flex-col w-screen h-[90vh] text-center relative"
+    >
       <canvas className=" w-screen  h-full absolute fluid-image" />
       <div className=" flex flex-col w-screen items-center">
         <h1 className="font-Pacifico  mt-40 md:mt-48 text-[3.4rem] sm:text-6xl md:text-7xl xl:text-8xl 2xl:text-9xl text-slate-100 leading-relaxed lg:pb-8 lg:leading-loose z-10">
