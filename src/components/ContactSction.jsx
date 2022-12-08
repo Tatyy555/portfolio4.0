@@ -1,9 +1,9 @@
-import { EnvelopeIcon, MapIcon, PhoneIcon } from "@heroicons/react/24/solid";
+import { EnvelopeIcon } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
 import React from "react";
-import { useForm, SubmitHandler } from "react-hook-form";
+import { useForm } from "react-hook-form";
 
-export default function ContactSction() {
+function ContactSction() {
   const { register, handleSubmit } = useForm();
   const onSubmit = (formData) => {
     window.location.href = `mailto:tatsuya91yamaguchi@gmail.com?subject=${formData.subject}&body=${formData.message}%0D%0A%0D%0A%0D%0A${formData.name}(${formData.email})`;
@@ -38,7 +38,9 @@ export default function ContactSction() {
         <div className="mb-5 mt-5 sm:my-10 space-y-2 mx-auto">
           <div className="flex item-center justify-center space-x-5">
             <EnvelopeIcon className="text-orange-400 h-7 w-7 animate-pulse" />
-            <p className="text-base sm:text-2xl">tatsuya91yamaguchi@gmail.com</p>
+            <p className="text-base sm:text-2xl">
+              tatsuya91yamaguchi@gmail.com
+            </p>
           </div>
         </div>
 
@@ -80,3 +82,5 @@ export default function ContactSction() {
     </div>
   );
 }
+
+export default ContactSction;
