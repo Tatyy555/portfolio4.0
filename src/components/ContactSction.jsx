@@ -38,7 +38,7 @@ export default function ContactSction() {
         <div className="mb-5 mt-5 sm:my-10 space-y-2 mx-auto">
           <div className="flex item-center justify-center space-x-5">
             <EnvelopeIcon className="text-orange-400 h-7 w-7 animate-pulse" />
-            <p className="text-xl sm:text-2xl">tatsuya91yamaguchi@gmail.com</p>
+            <p className="text-base sm:text-2xl">tatsuya91yamaguchi@gmail.com</p>
           </div>
         </div>
 

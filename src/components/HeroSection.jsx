@@ -22,7 +22,7 @@ function Hero() {
   return (
     <div
       id="hero-section"
-      className="flex flex-col w-screen h-[90vh] text-center relative"
+      className="flex flex-col w-screen h-[80vh] sm:h-[90vh] text-center relative"
     >
       <canvas className=" w-screen  h-full absolute fluid-image" />
       <div className=" flex flex-col w-screen items-center">
