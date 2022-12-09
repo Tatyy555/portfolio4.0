@@ -11,7 +11,7 @@ function ProjectSection() {
   let projects = [
     {
       _id: 1,
-      link: "",
+      link: "https://portfolio-git-master-tatyy555.vercel.app/",
       image: (
         <HiOutlineLibrary className="text-white h-24 w-24 sm:h-40 sm:w-40" />
       ),
